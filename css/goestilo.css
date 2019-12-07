@@ -1,0 +1,31 @@
+body{
+    background: green;
+}
+.grid{
+    display: grid;
+    grid-template-areas: "head head" "menu main" "foot foot";
+    
+
+}
+.logo {
+    grid-area: head;
+    text-align: center;
+    background: blue;
+    padding: 0;
+    
+    
+}
+
+.b{
+    grid-area: main;
+    background: lightgreen;
+    height: 400px;
+}
+.c{
+    grid: menu;
+    background: rgb(233, 233, 74)
+}
+.d {
+    grid-area: foot;
+    background: lightseagreen;
+

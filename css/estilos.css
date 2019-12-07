@@ -1,0 +1,61 @@
+/*Importaciones*/
+body {
+  font-family: monospace; }
+
+ul {
+  list-style: none; }
+  ul li {
+    padding: 10px;
+    background: green; }
+    ul li .clase {
+      text-decoration: none;
+      font-size: 30px; }
+
+div {
+  background: green;
+  border: 1px solid #1c19ca;
+  width: 1100px; }
+  div .bloque1 {
+    background: green;
+    width: 650px;
+    font-size: 30px; }
+
+p {
+  color: yellow; }
+
+.bloque-1 {
+  width: 200px; }
+
+.bloque-2 {
+  width: 400px; }
+
+.bloque-3 {
+  width: 600px; }
+
+.disco-1 {
+  background-image: url("disco_1.jpg"); }
+
+.disco-2 {
+  background-image: url("disco_2.jpg"); }
+
+.facebook-icon {
+  background-image: url("img/iconos/facebook.png"); }
+
+.twitter-icon {
+  background-image: url("img/iconos/twitter.png"); }
+
+.instagram-icon {
+  background-image: url("img/iconos/instagram.png"); }
+
+.btn--twitter {
+  background-color: orange; }
+
+.btn--facebook {
+  background-color: blue; }
+
+.btn--instagram {
+  background-color: green; }
+
+/*.box{
+    @include medidas (500px,100px, rgb(226, 19, 175));
+}*/

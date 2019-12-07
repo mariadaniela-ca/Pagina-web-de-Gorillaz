@@ -1,0 +1,13 @@
+.carousel .carousel-indicators li{
+    height: 30px;
+    border-radius: 50%;
+}
+.carousel{
+   overflow: hidden;
+   height: 800px;
+
+}
+.dropdown-menu{
+  
+
+}

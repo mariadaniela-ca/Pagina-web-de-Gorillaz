@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css?family=Domine|Permanent+Marker');
+
+html{
+    scroll-behavior: smooth;
+
+}
+body{
+    background: rgb(0, 0, 0);
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    text-align: center;
+    justify-content:center; 
+    font-family: 'Permanent Marker', cursive;
+    width: 100%;
+    height: 50px;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+}
+header .nombre{
+    float: left;
+}
+header label{
+    cursor: pointer;
+}
+#inicio{
+    width: 100%;
+}
+.container img{
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+}
+.icon-menu{
+    
+    height: 100%;
+    padding-top:5px;
+    background: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    font-size: 25px; 
+    border: none;
+
+}
+.dropdown-menu a{
+    font-family:'Monoton', cursive;
+}
+header label{
+    float: right;
+    font-size: 25px;
+    margin: 6px 0;
+
+
+}
+.menu{
+    width: 100%;
+    margin-top:60px;
+    left: 0%;
+    top: 0%;
+    background: blue;
+    text-align: center;
+   
+    position: absolute;
+    transition: all 0.5s;
+    transform: translateX(-100%)
+}
+.menu a{
+    font-size: 25px;
+    padding-top:15px;
+    text-decoration: none;
+    margin-left: 45px;  
+}
+#menu-bar{
+    display: none;
+}
+
+.container .row .col{
+    width: 100%;
+    display: flex;
+    
+}
+.container{
+    width: 100%;
+    left: 0;
+    top:0;
+    color: rgb(255, 255, 255);
+    display: flex;
+    background: rgb(0, 0, 0);
+    height: 100%;
+    text-align:center;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.container ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 25px;
+}
+
+.carousel-inner{
+    padding-top:0;
+    top:0px;
+    height: 750px;
+}
+.historia{
+    padding-top:30px;
+    color:rgb(0, 0, 0);
+    position: relative;
+    justify-content: center;
+    text-align: justify;
+    background-color: rgb(221, 221, 188);
+
+}
+.historia h1{
+    padding-top: 45px;
+    font-family:'Monoton', cursive;
+
+}
+.historia article{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 50px;
+    width: 650px;
+
+}
+.historia .parrafo{
+    text-align: justify;
+}
+
+
+.integrantes{
+    padding: 60px 250px 50px 250px;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+
+}
+.integrantes section{ 
+    display: flex;
+    padding-top: 45px;
+    vertical-align: top;
+    font-family: 'Yantramanav', sans-serif;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    
+}
+
+.integrantes h1{
+    font-family:'Monoton', cursive;
+    padding-top:50px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.integrantes h2{
+    padding-left: 80px;
+    position: relative;
+    text-align: center;
+    justify-items: center;
+}
+.integrantes ul li{
+    vertical-align: top;
+    padding-left:  120px;
+    position: absolute;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+
+}
+.integrantes img{
+    border-radius: 100%;
+    margin-left: 80px;
+    margin-bottom: 15px;
+    width: 250px;
+
+}
+.discografia{
+    padding: 60px 250px 50px 250px;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding-bottom: 100px;
+    background-color: rgb(221, 221, 188);
+    
+    }
+.discografia h2{
+    font-family:'Monoton', cursive;
+    padding-bottom: 15px;
+    }
+.discografia li{
+    width: 250px;
+    margin:25px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    }
+.discografia li img{
+    width: 100%;
+}
+.discografia li .overlay{
+    display: flex;
+    width:100%;
+    padding:75px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 22px;
+    opacity: 0;
+    transition: ease all 0.5s;
+    }
+.discografia li .overlay:hover{
+    opacity: 1;
+}
+    
+.example-container {
+    display: flex;
+    flex-direction: column;
+}
+      
+.example-container > * {
+    width: 100%;
+}
+.formulario{
+    padding-top: 75px ;
+    color:rgb(255, 255, 255);
+    height: 820px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+.formulario h1{
+    font-family:'Monoton', cursive;
+    
+}
+.formulario .form{
+    margin-left: 560px;
+    width: 450px;
+    height: 250px;
+
+}
+.formulario .btn {
+    background-color: rgb(94, 141, 204);
+}
+.btn:hover {
+    background: rgba(0,0,0,0);
+    color: #3a7999;
+    box-shadow: inset 0 0 0 3px #3a7999;
+}
+.redes{
+    display:block;
+    text-align: center;
+    justify-content: center;
+}
+.redes ul li{
+    padding-left: 40px;
+    display: inline-block;
+    list-style: none;
+
+}
+.redes img{
+    width: 40px; 
+    filter: invert(100%);
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    padding: 0;
+
+}
+footer h6{
+    padding-left: 75px;
+}
